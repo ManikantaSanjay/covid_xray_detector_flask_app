@@ -1,10 +1,9 @@
 import os
-import tensorflow as tf
 import numpy as np
-from tensorflow import keras
-from skimage import io
-from tensorflow.keras.preprocessing import image
-
+from keras.models import load_model
+from keras.preprocessing.image import load_img
+from keras.preprocessing.image import img_to_array
+from keras.preprocessing.image import array_to_img
 
 # Flask utils
 from flask import Flask, redirect, url_for, request, render_template
@@ -19,14 +18,13 @@ app = Flask(__name__)
 # You can also use pretrained model from Keras
 # Check https://keras.io/applications/
 
-model =tf.keras.models.load_model('model.h5',compile=False)
+model =load_model('model.h5',compile=False)
 print('Model loaded. Check http://127.0.0.1:5000/')
 
 
 def model_predict(img_path, model):
-    img = image.load_img(img_path, grayscale=False, target_size=(64, 64))
-    show_img = image.load_img(img_path, grayscale=False, target_size=(64, 64))
-    x = image.img_to_array(img)
+    img = load_img(img_path, grayscale=False, target_size=(64, 64))
+    x = img_to_array(img)
     x = np.expand_dims(x, axis=0)
     x = np.array(x, 'float32')
     x /= 255
