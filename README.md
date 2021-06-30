@@ -6,8 +6,10 @@
 
 ### 2> Saved Model:
 
-The model.h5 contains the pre-trained weights saved from model Training.
+The <b>model.h5</b> contains the pre-trained weights saved from model Training.
 
 ### 3> Running the Flask app:
 
-<b> python app.py
+<b> flask run app.py</b>
+
+Open Browser at http://121.0.0.1:5000
