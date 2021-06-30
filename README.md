@@ -13,3 +13,7 @@ The <b>model.h5</b> contains the pre-trained weights saved from model Training.
 <b> flask run app.py</b>
 
 Open Browser at http://121.0.0.1:5000
+
+## Dataset
+
+https://www.kaggle.com/plameneduardo/sarscov2-ctscan-dataset
