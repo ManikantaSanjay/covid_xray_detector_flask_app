@@ -17,3 +17,6 @@ Open Browser at http://121.0.0.1:5000
 ## Dataset
 
 https://www.kaggle.com/plameneduardo/sarscov2-ctscan-dataset
+
+## Add a star 🌟 to the repo if u like it.:smiley: Thank You :v:
+
