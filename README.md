@@ -1,12 +1,12 @@
 # covid_xray_detector_flask_app
-## Steps to Run The Project:
+## Steps to Run The Project :
 ### 1> Installing the requirements:
 
 <b>pip install requirements.txt</b> 
 
 ### 2> Saved Model:
 
-The <b>model.h5</b> contains the pre-trained weights saved from model Training.
+The <b>model.h5</b> file contains the pre-trained weights saved from model Training.
 
 ### 3> Running the Flask app:
 
@@ -14,9 +14,9 @@ The <b>model.h5</b> contains the pre-trained weights saved from model Training.
 
 Open Browser at http://121.0.0.1:5000
 
-## Dataset
+## Dataset : ⬇️
 
-https://www.kaggle.com/plameneduardo/sarscov2-ctscan-dataset
+https://www.kaggle.com/plameneduardo/sarscov2-ctscan-dataset 🔗
 
 ## Add a star 🌟 to the repo if u like it.:smiley: Thank You :v:
 
