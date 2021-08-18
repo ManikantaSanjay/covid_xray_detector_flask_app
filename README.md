@@ -2,7 +2,7 @@
 ## Steps to Run The Project :
 ### 1> Installing the requirements:
 
-<b>pip install requirements.txt</b> 👉
+<b>pip install requirements.txt</b> 👇
 https://github.com/ManikantaSanjay/covid_xray_detector_flask_app/blob/main/requirements.txt 🔗
 
 ### 2> Saved Model:
