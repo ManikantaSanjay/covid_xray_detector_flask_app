@@ -1,19 +1,27 @@
 # covid_xray_detector_flask_app
-## Steps to Run The Project :
-### 1> Installing the requirements:
+## 🛠️ Installation Steps :
+### 1> Clone the repo 
+```bash
+git clone https://github.com/ManikantaSanjay/covid_xray_detector_flask_app.git
+```
 
-<b>pip install requirements.txt</b> 👇
-https://github.com/ManikantaSanjay/covid_xray_detector_flask_app/blob/main/requirements.txt 🔗
+### 2> Change the directory
+```bash
+cd covid_xray_detector_flask_app
+```
+### 3> Installing the requirements:
+```bash
+pip install requirements.txt
+```
 
-### 2> Saved Model:
+### 4> Running the Flask app:
+```bash
+flask run app.py
+```
+#### To view the App, Open Browser at http://121.0.0.1:5000
 
-The <b>model.h5</b> file contains the pre-trained weights saved from model Training. 👇
-https://github.com/ManikantaSanjay/covid_xray_detector_flask_app/blob/main/model.h5
-### 3> Running the Flask app:
-
-<b> flask run app.py</b>
-
-Open Browser at http://121.0.0.1:5000
+## Important Note
+The <b>model.h5</b> file contains the pre-trained weights saved from model training. 
 
 ## Dataset : ⬇️
 
