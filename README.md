@@ -1,13 +1,12 @@
-<div align="Center">
-<h1> A Flask-Based Web App for Identification of COVID-19 from Chest X-Ray using Deep Learning </h1>
-</div>
+# Hello there, health tech enthusiasts! 👋🩺
 
+Welcome to our **COVID-19 X-Ray Detector Flask App** project. This is where we're using the power of machine learning to detect COVID-19 from chest X-ray images.
 
-## 🧐 About
+## What's it all about? 🤔
 
-Using ensemble modelling and progressive image scaling, we successfully built a Flask-based web application for recognising COVID-19 from medical CT scan imaging, attaining over 86 percent accuracy.
+This project is a Flask-based web application that uses ensemble modeling and progressive image scaling to recognize COVID-19 from medical CT scan imaging. It achieves over 86% accuracy, which is pretty impressive!
 
-## 🛠️ Installation Steps 
+## How does it work? 🛠️
 ### 1> Clone the repo 
 ```bash
 git clone https://github.com/ManikantaSanjay/covid_xray_detector_flask_app.git
@@ -26,18 +25,25 @@ pip install requirements.txt
 ```bash
 flask run app.py
 ```
-#### To view the App, Open Browser at http://121.0.0.1:5000
+#### To view the App, Open your browser at http://121.0.0.1:5000
 
-## Important Note
-The <b>model.h5</b> file contains the pre-trained weights saved from model training. 
+## Important Note 📝
 
-## Dataset ⬇️
+The `model.h5` file contains the pre-trained weights saved from model training.
 
-#### https://www.kaggle.com/plameneduardo/sarscov2-ctscan-dataset 🔗
+## Dataset 📊
 
-## 🍰 Contributing
-Please contribute using GitHub Flow . Create a branch, add commits, and open a pull request.
+We've used data from this [Kaggle dataset](https://www.kaggle.com/plameneduardo/sarscov2-ctscan-dataset).
 
-## 🙏 Support
-### Add a star 🌟 to the repo if u like it.😃 Thank You ✌️
+## Contributing 🤝
+
+Please contribute using [GitHub Flow](https://guides.github.com/introduction/flow/). Create a branch, add commits, and open a pull request.
+
+## Support 🙌
+
+If you like what you see, give us a star ⭐. Thanks and happy coding! 🚀
+
+## License 📄
+
+This project is licensed under the MIT License.
 
